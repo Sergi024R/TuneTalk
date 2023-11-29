@@ -1,0 +1,1 @@
+LASTFM_API_KEY = 'f04ea9e1af1ca4cd236fcbf7df52b9c7'
