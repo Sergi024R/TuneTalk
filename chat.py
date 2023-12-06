@@ -115,8 +115,7 @@ async def obtener_preferencias(ctx):
     except asyncio.TimeoutError:
         await ctx.send("Se agotó el tiempo para ingresar tus preferencias. Vuelve a intentarlo.")
 
-
-@bot.command(name='recomendar_cancion_lastfm')
+@bot.command(name='recomendar_cancion_lastfm') 
 async def recomendar_cancion_lastfm(ctx, genero):
     try:
         # Realizar una llamada a la API de Last.fm para obtener una recomendación de canción por género
@@ -138,4 +137,4 @@ async def recomendar_cancion_lastfm(ctx, genero):
 
 
 
-bot.run('MTE3MzgyNzc5NTc0NzYxMDY0NA.GFhubx.voLNpseOkBZYtUO2nuh6s2RZNbKFC_aewFNNcc')
+bot.run('MTE3MzgyNzc5NTc0NzYxMDY0NA.GOIvNA.eWFhk6oHHxzCnHDzh-g7rafrELJMHfLJc3G2_c')
